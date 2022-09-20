@@ -14,5 +14,5 @@ using System.Windows.Markup;
 [assembly: XmlnsDefinition("xukai201506@163.com", "Amos.Core")]
 [assembly: XmlnsPrefix("xukai201506@163.com", "k")]
 
-[assembly: XmlnsDefinition("https://github.com/XHeart-WPF", "Amos.Core")]
-[assembly: XmlnsPrefix("https://github.com/XHeart-WPF", "k")]
+[assembly: XmlnsDefinition("https://github.com/kaiamos/XHeart-WPF.git", "Amos.Core")]
+[assembly: XmlnsPrefix("https://github.com/kaiamos/XHeart-WPF.git", "k")]
