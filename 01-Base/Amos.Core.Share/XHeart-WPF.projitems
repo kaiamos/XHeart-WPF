@@ -14,9 +14,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)Attach\XAttach.Mouse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converter\Converter.Bool.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converter\XConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\ElementExtention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResourceKey\BrushKeys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResourceKey\OpacityKeys.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Util\ImageUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Command\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Enum\" />
   </ItemGroup>
 </Project>

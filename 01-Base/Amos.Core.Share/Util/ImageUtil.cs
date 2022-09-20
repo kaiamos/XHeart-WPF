@@ -46,7 +46,7 @@ namespace Amos.Core.Util
 
 
         /// <summary>
-        /// BitmapImage --> Bitmap
+        /// BitmapImage 转为 Bitmap
         /// </summary>
         /// <param name="bitmapImage"></param>
         /// <returns></returns>
