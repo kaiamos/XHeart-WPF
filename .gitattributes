@@ -5,7 +5,7 @@
 *.js linguist-language=csharp
 *.css linguist-language=csharp
 *.html linguist-language=csharp
-*.cs linguist-language=java
+*.cs linguist-language=csharp
 
 ###############################################################################
 # Set default behavior for command prompt diff.
