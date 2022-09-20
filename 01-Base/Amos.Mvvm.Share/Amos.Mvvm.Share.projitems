@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>628c59f1-6df3-45a1-b9e2-2cd6e3fc3dc7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Amos.Mvvm.Share</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CompontModel\ObservableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CompontModel\ObservableRecipient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Input\Interfaces\IRelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Input\NotifyPropertyChanged.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messaging\IMessenger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messaging\MessageHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messaging\WeakReferenceMessenger.cs" />
+  </ItemGroup>
+</Project>
